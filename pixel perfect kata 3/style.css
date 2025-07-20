@@ -1,0 +1,95 @@
+*,*::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-style: 16px;
+    line-height: 1.5;
+}
+
+
+
+.img1{
+
+        width: 96px;
+        height: 96px;
+        display: inline;
+        overflow: hidden;
+        position: absolute;
+        margin-top: 0px;        
+}
+
+
+.img2{
+    display: inline-block;   
+    width: 96px;
+        height: 96px;
+        margin-top: 116px;
+        overflow: hidden;
+        display: inline;
+        
+        position: absolute;        
+}
+
+.img3{
+        width: 216px;
+        height: 216px;
+        margin-top: 0px;
+        margin-left: 424px;
+
+        display: inline-block;
+        overflow: hidden;
+        position: absolute;        
+}
+.img1 img{
+    object-fit: cover;
+}
+.img2 img{
+    object-fit: cover;
+
+}
+.img3 img{
+    object-fit: cover;
+}
+
+.h1{
+    font-size: 20px;
+    line-height: 1.2;
+}
+p{  
+    display: inline;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container{
+    width: 288px;
+        margin-left:116px;
+        margin-top: 0px;
+        
+        width: 288px;
+        position:absolute;
+        word-break: break-word;
+        overflow: break-word;
+         
+}
+.container2{
+
+    margin-left:116px;
+        margin-top: 116px;
+        display: inline;
+        width: 288px;
+        position:absolute;
+        word-break: break-word;
+        overflow: break-word;
+        
+}
+.container3{
+            
+        margin-left:0px;
+        width: 640px;
+        margin-top: 240px;
+        
+        width: 640px;
+        position:absolute;
+      
+}
